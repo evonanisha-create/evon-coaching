@@ -27,7 +27,7 @@ export default function HowItWorks() {
     {
       number: '01',
       title: 'Get Clarity',
-      description: 'Take the free Career Clarity Assessment to understand your unique situation and what's really holding you back.',
+      description: "Take the free Career Clarity Assessment to understand your unique situation and what's really holding you back.",
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
           <circle cx="16" cy="16" r="12" stroke="currentColor" strokeWidth="2" />
