@@ -13,7 +13,7 @@ const config: Config = {
         'brand': {
           black: '#000000',
           white: '#FFFFFF',
-          blue: '#0000FF',        // Royal Blue
+          blue: '#122560',        // Deep Navy Blue
           pink: '#D90166',        // Dark Hot Pink
         },
         // Extended palette for UI
