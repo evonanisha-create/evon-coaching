@@ -106,12 +106,12 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating quote card */}
+              {/* Floating credential card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-5 shadow-2xl max-w-xs border-l-4 border-brand-pink hidden md:block">
-                <p className="text-sm text-text-secondary italic leading-relaxed">
-                  "Evon helped me see what I couldn't see myself. Three months later, I made a move I'd been avoiding for years."
+                <p className="text-sm text-text-primary font-medium leading-relaxed">
+                  From strategy consulting to tech to coaching — I've navigated the career pivots I now help others through.
                 </p>
-                <p className="text-xs text-text-muted mt-2">— Senior Manager, Tech</p>
+                <p className="text-xs text-text-muted mt-2">Deloitte → Meta → Coaching</p>
               </div>
             </div>
           </div>
