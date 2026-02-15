@@ -36,8 +36,14 @@ export default function Hero() {
             >
               You know it's time
               <br />for a change.
-              <span className="block mt-2 text-brand-blue">
-                Let's figure out what's next.
+              <span className="block mt-2">
+                <span className="bg-brand-pink text-white px-3 py-1 inline-block leading-[1.2]">
+                  Let's figure out
+                </span>
+                <br />
+                <span className="bg-brand-pink text-white px-3 py-1 inline-block leading-[1.2] mt-1">
+                  what's next.
+                </span>
               </span>
             </h1>
 
