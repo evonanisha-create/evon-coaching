@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container-main">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo */}
-          <a href="#" className="font-display text-xl font-medium">
+          <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className="font-display text-xl font-medium cursor-pointer">
             <span className="text-brand-black">Evon</span>
             <span className="text-brand-pink">.</span>
           </a>

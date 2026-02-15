@@ -129,15 +129,7 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* Note about testimonials - remove when real ones are added */}
-        <p
-          className={`text-center text-sm text-text-muted mt-8 transition-all duration-700 delay-600 ${
-            isVisible ? 'opacity-100' : 'opacity-0'
-          }`}
-        >
-          {/* Remove this paragraph when real testimonials are added */}
-          <em>Client names anonymized for privacy. More testimonials coming soon.</em>
-        </p>
+        {/* TODO: Remove this spacer when real testimonials are added */}
       </div>
     </section>
   )
