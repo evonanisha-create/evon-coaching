@@ -50,7 +50,7 @@ export default function About() {
           >
             I've made the pivots
             <br />
-            <span className="text-brand-blue">I now help others navigate.</span>
+            <span className="bg-brand-pink text-white px-3 py-1 inline-block leading-[1.2] mt-1">I now help others navigate.</span>
           </h2>
         </div>
 
