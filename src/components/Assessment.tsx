@@ -90,7 +90,7 @@ const archetypes: Record<string, Archetype> = {
     tagline: "You've done everything right, but something still feels off.",
     description: "You've built an impressive career through hard work and determination. But lately, the things that used to drive you feel empty. You're successful by every external measure, yet you're exhausted and questioning whether this is really what you want.",
     insights: [
-      "Your exhaustion isn't a sign of weakness—it's information telling you something needs to shift.",
+      "Your exhaustion isn't a sign of weakness. It's information telling you something needs to shift.",
       "High achievers often optimize for external success before internal fulfillment. That's not a flaw, it's a pattern that can be redirected.",
       "The question isn't 'how do I work harder?' but 'what would feel meaningful?'",
     ],
@@ -104,7 +104,7 @@ const archetypes: Record<string, Archetype> = {
     id: 'stuck_strategist',
     name: 'The Stuck Strategist',
     tagline: "You can see all the paths, but you can't pick one.",
-    description: "You're analytical and strategic—great at solving other people's problems. But when it comes to your own career, you're paralyzed by options. Every path has pros and cons, and you keep researching, planning, and waiting for clarity that never comes.",
+    description: "You're analytical and strategic. You're great at solving other people's problems. But when it comes to your own career, you're paralyzed by options. Every path has pros and cons, and you keep researching, planning, and waiting for clarity that never comes.",
     insights: [
       "More information won't create clarity. At some point, you have to experiment.",
       "Your strategic mind is an asset, but it can also keep you stuck in analysis mode.",
@@ -120,10 +120,10 @@ const archetypes: Record<string, Archetype> = {
     id: 'new_leader',
     name: 'The Emerging Leader',
     tagline: "You got the role. Now you need to grow into it.",
-    description: "You've been promoted or stepped into a leadership position, and while it's exciting, it's also overwhelming. You want to make an impact, build trust with your team, and prove you belong here—but imposter syndrome is real.",
+    description: "You've been promoted or stepped into a leadership position, and while it's exciting, it's also overwhelming. You want to make an impact, build trust with your team, and prove you belong here. But imposter syndrome is real.",
     insights: [
       "The skills that got you promoted aren't the same skills that will make you successful in this role.",
-      "Every new leader feels like they're figuring it out as they go. That's not imposter syndrome—that's reality.",
+      "Every new leader feels like they're figuring it out as they go. That's not imposter syndrome. That's reality.",
       "Your team doesn't need you to have all the answers. They need you to be clear, consistent, and human.",
     ],
     nextSteps: [
@@ -136,7 +136,7 @@ const archetypes: Record<string, Archetype> = {
     id: 'returner',
     name: 'The Returner',
     tagline: "You're coming back, and everything feels different.",
-    description: "After time away—whether for parenting, caregiving, health, or a intentional break—you're re-entering the workforce. You're capable and experienced, but your confidence has taken a hit. The world moved on while you were gone, and you're wondering where you fit.",
+    description: "After time away for parenting, caregiving, health, or an intentional break, you're re-entering the workforce. You're capable and experienced, but your confidence has taken a hit. The world moved on while you were gone, and you're wondering where you fit.",
     insights: [
       "Your skills didn't disappear during your break. They just need to be reconnected to current opportunities.",
       "The gap on your resume is far less important than the story you tell about it.",
@@ -144,7 +144,7 @@ const archetypes: Record<string, Archetype> = {
     ],
     nextSteps: [
       "Update your internal narrative before you update your LinkedIn. How do you want to frame this chapter?",
-      "Reconnect with 3-5 people in your network—not to ask for jobs, but to re-establish relationships.",
+      "Reconnect with 3-5 people in your network. Not to ask for jobs, but to re-establish relationships.",
       "A coach can help you rebuild confidence and clarify what you're looking for this time around.",
     ],
   },
@@ -152,10 +152,10 @@ const archetypes: Record<string, Archetype> = {
     id: 'misaligned_expert',
     name: 'The Misaligned Expert',
     tagline: "You're great at what you do. You're just not sure you want to do it anymore.",
-    description: "You've developed real expertise in your field, and people value your work. But somewhere along the way, the work stopped feeling meaningful. You're good at your job—you're just not sure it's the right job anymore.",
+    description: "You've developed real expertise in your field, and people value your work. But somewhere along the way, the work stopped feeling meaningful. You're good at your job. You're just not sure it's the right job anymore.",
     insights: [
       "Being good at something doesn't mean you have to keep doing it forever.",
-      "Misalignment often builds slowly. It's not dramatic—it's a gradual drift from what matters to you.",
+      "Misalignment often builds slowly. It's not dramatic; it's a gradual drift from what matters to you.",
       "Your expertise is transferable. The question is: where do you want to apply it?",
     ],
     nextSteps: [

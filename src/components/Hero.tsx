@@ -53,7 +53,7 @@ export default function Hero() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              I help high-achieving professionals navigate career transitions—because I've made them myself. From consulting to tech to coaching, I understand what it takes to move toward work that actually fits.
+              I help high-achieving professionals navigate career transitions, because I've made them myself. From consulting to tech to coaching, I understand what it takes to move toward work that actually fits.
             </p>
 
             {/* CTA Buttons */}
@@ -115,7 +115,7 @@ export default function Hero() {
               {/* Floating credential card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-5 shadow-2xl max-w-xs border-l-4 border-brand-pink hidden md:block">
                 <p className="text-sm text-text-primary font-medium leading-relaxed">
-                  From strategy consulting to tech to coaching — I've navigated the career pivots I now help others through.
+                  From strategy consulting to tech to coaching, I've navigated the career pivots I now help others through.
                 </p>
                 <p className="text-xs text-text-muted mt-2">Deloitte → Meta → Coaching</p>
               </div>

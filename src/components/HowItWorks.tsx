@@ -59,7 +59,7 @@ export default function HowItWorks() {
     {
       number: '04',
       title: 'Take Action',
-      description: "Move forward with clarity and confidence—whether that's a career change, new role, healthier boundaries, or leadership growth.",
+      description: "Move forward with clarity and confidence. Whether that looks like a career change, new role, healthier boundaries, or leadership growth.",
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
           <path d="M6 16h20m0 0l-6-6m6 6l-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

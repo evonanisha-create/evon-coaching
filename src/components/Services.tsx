@@ -70,7 +70,7 @@ export default function Services() {
     },
     {
       title: 'Feeling Stuck',
-      description: 'Successful on paper but unfulfilled—ready for something different',
+      description: 'Successful on paper but unfulfilled, and ready for something different',
     },
   ]
 

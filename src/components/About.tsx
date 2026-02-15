@@ -66,7 +66,7 @@ export default function About() {
                 I started my career at a big consulting house, trying many different things until I found my passion: strategy. That led me to a smaller firm specializing in strategy alignment and execution, which brought me to Austin.
               </p>
               <p className="text-lg leading-relaxed">
-                After several years in consulting, I made the leap to tech—working in operations, then marketing and sales. I was using my strategy skills, but in a completely different context.
+                After several years in consulting, I made the leap to tech. I worked in operations, then marketing and sales. Same strategy skills, completely different context.
               </p>
               <p className="text-lg leading-relaxed">
                 Then the pandemic hit. My world slowed down, and I finally had space to reflect. I'd done consulting. I'd done tech. But I wasn't quite satisfied. I didn't want to go back to consulting, and I didn't see myself staying in tech forever.
@@ -75,7 +75,7 @@ export default function About() {
                 That's when I realized what I wanted: to marry my consulting experience with more intimate client work. Instead of big engagements for whole companies, I wanted to work closely with individuals on their <em>personal strategy</em>.
               </p>
               <p className="text-lg leading-relaxed">
-                I got certified in 2021, tested coaching alongside my job, and discovered I loved it. In 2022, I took the leap to coach full-time. Now I've worked with over 200 clients—from new grads to executives, Fortune 500 to nonprofits—helping them navigate their own career transitions.
+                I got certified in 2021, tested coaching alongside my job, and discovered I loved it. In 2022, I took the leap to coach full-time. Now I've worked with over 200 clients, from new grads to executives, Fortune 500 to nonprofits, helping them navigate their own career transitions.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export default function About() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              "Coaching helps you uncover insights that are unique to you—connecting the analytical and creative sides of your brain to unlock potential and reach your goals."
+              "Coaching helps you uncover insights that are unique to you. It connects the analytical and creative sides of your brain to unlock potential and reach your goals."
             </blockquote>
           </div>
 
