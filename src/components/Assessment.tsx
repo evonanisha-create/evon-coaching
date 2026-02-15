@@ -91,7 +91,7 @@ const archetypes: Record<string, Archetype> = {
     description: "You've built an impressive career through hard work and determination. But lately, the things that used to drive you feel empty. You're successful by every external measure, yet you're exhausted and questioning whether this is really what you want.",
     insights: [
       "Your exhaustion isn't a sign of weakness. It's information telling you something needs to shift.",
-      "High achievers often optimize for external success before internal fulfillment. That's not a flaw, it's a pattern that can be redirected.",
+      "High achievers often optimize for external success before internal fulfillment. That's not a flaw. It's a pattern that can be redirected.",
       "The question isn't 'how do I work harder?' but 'what would feel meaningful?'",
     ],
     nextSteps: [

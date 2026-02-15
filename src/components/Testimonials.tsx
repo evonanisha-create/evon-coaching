@@ -13,14 +13,14 @@ const testimonials = [
   },
   {
     id: 2,
-    quote: "Evon's strategic background made all the difference. She understood the corporate world I was navigating and helped me approach my career change like a business problem—with a clear plan and actionable steps.",
+    quote: "Evon's strategic background made all the difference. She understood the corporate world I was navigating and helped me approach my career change like a business problem, with a clear plan and actionable steps.",
     author: "Former Consultant",
     company: "Transitioned to Tech",
     outcome: "Made a successful pivot from consulting",
   },
   {
     id: 3,
-    quote: "I was drowning in imposter syndrome after my promotion. Evon helped me build real confidence—not fake positivity, but genuine belief in my ability to lead. My team has noticed the difference.",
+    quote: "I was drowning in imposter syndrome after my promotion. Evon helped me build real confidence. Not fake positivity, but genuine belief in my ability to lead. My team has noticed the difference.",
     author: "New People Manager",
     company: "Financial Services",
     outcome: "Built confidence in leadership role",
