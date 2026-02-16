@@ -27,6 +27,7 @@ export default function About() {
     <section
       ref={sectionRef}
       id="about"
+      aria-label="About Evon Davis, career transition coach in Austin Texas"
       className="section-padding bg-white relative overflow-hidden"
     >
       <div className="container-main">
@@ -48,7 +49,8 @@ export default function About() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            I've made the pivots
+{/* SEO: keyword-optimized heading with "career transition" */}
+            I've made the career pivots
             <br />
             <span className="bg-brand-pink text-white px-3 py-1 inline-block leading-[1.2] mt-1">I now help others navigate.</span>
           </h2>
@@ -63,7 +65,8 @@ export default function About() {
           >
             <div className="space-y-6 text-text-secondary">
               <p className="text-xl text-text-primary leading-relaxed">
-                I started my career at a big consulting house, trying many different things until I found my passion: strategy. That led me to a smaller firm specializing in strategy alignment and execution, which brought me to Austin.
+{/* SEO: Career narrative with natural keyword placement — "strategy," "Austin" */}
+                I started my career at a big consulting house, trying many different things until I found my passion: strategy. That led me to a smaller firm specializing in strategy alignment and execution, which brought me to Austin, Texas.
               </p>
               <p className="text-lg leading-relaxed">
                 After several years in consulting, I made the leap to tech. I worked in operations, then marketing and sales. Same strategy skills, completely different context.

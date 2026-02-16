@@ -27,6 +27,7 @@ export default function Contact() {
     <section
       ref={sectionRef}
       id="contact"
+      aria-label="Book a free career coaching discovery call"
       className="section-padding bg-brand-black text-white relative overflow-hidden"
     >
       {/* Background decoration */}
@@ -61,7 +62,8 @@ export default function Contact() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Book a free 30-minute discovery call. We'll talk about where you are, where you want to be, and whether coaching is the right next step for you.
+{/* SEO: CTA copy with location keyword */}
+            Book a free 30-minute discovery call. Whether you're in Austin or anywhere in the US, we'll talk about where you are, where you want to be, and whether coaching is the right next step.
           </p>
 
           {/* CTA Button */}

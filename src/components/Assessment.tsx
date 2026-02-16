@@ -257,6 +257,7 @@ export default function Assessment() {
     <section
       ref={sectionRef}
       id="assessment"
+      aria-label="Free career clarity assessment quiz"
       className="section-padding bg-surface-light relative overflow-hidden"
     >
       <div className="container-main">
@@ -278,7 +279,8 @@ export default function Assessment() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              Where are you in your career journey?
+{/* SEO: keyword-optimized heading for career assessment */}
+              Free career clarity assessment
             </h2>
             
             <p
@@ -286,7 +288,8 @@ export default function Assessment() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              Take 2 minutes to get clarity on what's really going on and discover your career transition archetype.
+{/* SEO: Subtext with long-tail keyword "career transition" and "feeling stuck" */}
+              Not sure what's holding you back? Take 2 minutes to discover your career transition archetype and get personalized insights on your next move.
             </p>
 
             <button

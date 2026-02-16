@@ -78,6 +78,7 @@ export default function Services() {
     <section
       ref={sectionRef}
       id="services"
+      aria-label="Career coaching services and pricing"
       className="section-padding bg-brand-black text-white relative overflow-hidden"
     >
       {/* Background decoration */}
@@ -103,7 +104,8 @@ export default function Services() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Invest in your next chapter
+{/* SEO: keyword heading with pricing context */}
+            Career coaching packages
           </h2>
           
           <p

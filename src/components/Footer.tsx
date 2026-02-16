@@ -47,11 +47,15 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Credentials */}
-        <div className="mt-6 pt-6 border-t border-surface-dark text-center">
+        {/* SEO: Credentials and location for E-E-A-T and local SEO */}
+        <div className="mt-6 pt-6 border-t border-surface-dark text-center space-y-2">
           <p className="text-xs text-text-muted">
             ICF ACC Certified Coach • CPC, IPEC
           </p>
+          {/* SEO: Address element for local SEO signals */}
+          <address className="text-xs text-text-muted not-italic">
+            Career & Leadership Coaching • Austin, Texas • Serving clients nationwide
+          </address>
         </div>
       </div>
     </footer>
