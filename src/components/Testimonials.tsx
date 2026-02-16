@@ -48,8 +48,8 @@ export default function Testimonials() {
     return () => observer.disconnect()
   }, [])
 
+  // SEO: Social proof section for E-E-A-T trust signals
   return (
-    {/* SEO: Social proof section for E-E-A-T trust signals */}
     <section ref={sectionRef} id="testimonials" aria-label="Client testimonials and success stories" className="section-padding relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-brand-pink/5 blur-3xl -z-10" />
@@ -72,7 +72,6 @@ export default function Testimonials() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-{/* SEO: Heading with keyword context */}
             What career coaching clients say
           </h2>
           

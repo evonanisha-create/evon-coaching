@@ -104,7 +104,6 @@ export default function Services() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-{/* SEO: keyword heading with pricing context */}
             Career coaching packages
           </h2>
           

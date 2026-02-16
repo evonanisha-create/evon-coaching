@@ -68,8 +68,8 @@ export default function HowItWorks() {
     },
   ]
 
+  // SEO: Process section — structured as numbered steps for featured snippets
   return (
-    {/* SEO: Process section — structured as numbered steps for featured snippets */}
     <section ref={sectionRef} id="how-it-works" aria-label="How career coaching works" className="section-padding relative">
       <div className="container-main">
         {/* Section Header */}
@@ -89,7 +89,6 @@ export default function HowItWorks() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-{/* SEO: keyword-rich heading */}
             How career coaching works
           </h2>
           

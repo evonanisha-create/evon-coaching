@@ -10,8 +10,8 @@ export default function Hero() {
     setIsVisible(true)
   }, [])
 
+  // SEO: Primary landing section with h1 keyword optimization
   return (
-    {/* SEO: Primary landing section with h1 keyword optimization */}
     <section aria-label="Career coaching with Evon Davis" className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden bg-surface-light">
       <div className="container-main">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
@@ -35,8 +35,7 @@ export default function Hero() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-{/* SEO: h1 contains primary keyword "career coach" naturally */}
-              Your career coach for
+Your career coach for
               <br />what comes next.
               <span className="block mt-2">
                 <span className="bg-brand-pink text-white px-3 py-1 inline-block leading-[1.2]">
@@ -55,8 +54,7 @@ export default function Hero() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-{/* SEO: Subheadline includes "career transition," "Austin," and authority signals */}
-              I help high-achieving professionals navigate career transitions, because I've made them myself. From consulting to tech to coaching in Austin, TX, I understand what it takes to move toward work that actually fits.
+I help high-achieving professionals navigate career transitions, because I've made them myself. From consulting to tech to coaching in Austin, TX, I understand what it takes to move toward work that actually fits.
             </p>
 
             {/* CTA Buttons */}
@@ -81,8 +79,7 @@ export default function Hero() {
               }`}
             >
               <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-text-muted">
-{/* SEO: Crawlable E-E-A-T credential signals */}
-                <span>ICF ACC Certified Coach</span>
+<span>ICF ACC Certified Coach</span>
                 <span>•</span>
                 <span>200+ Clients Coached</span>
                 <span>•</span>
@@ -108,8 +105,7 @@ export default function Hero() {
                 <div className="relative w-full h-full bg-surface-dark overflow-hidden">
                   <Image
                     src="/evon-headshot.webp"
-{/* SEO: descriptive, keyword-rich alt text */}
-                    alt="Evon Davis, career and leadership coach in Austin Texas, standing in professional attire"
+alt="Evon Davis, career and leadership coach in Austin Texas, standing in professional attire"
                     fill
                     className="object-cover"
                     priority

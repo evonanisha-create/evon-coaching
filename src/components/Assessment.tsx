@@ -279,7 +279,6 @@ export default function Assessment() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-{/* SEO: keyword-optimized heading for career assessment */}
               Free career clarity assessment
             </h2>
             
@@ -288,7 +287,6 @@ export default function Assessment() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-{/* SEO: Subtext with long-tail keyword "career transition" and "feeling stuck" */}
               Not sure what's holding you back? Take 2 minutes to discover your career transition archetype and get personalized insights on your next move.
             </p>
 
