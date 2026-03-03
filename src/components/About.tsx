@@ -63,7 +63,7 @@ export default function About() {
             }`}
           >
             <div className="space-y-6 text-text-secondary">
-              <p className="text-lg leading-relaxed">
+              <p className="text-xl text-text-primary leading-relaxed">
                 When the pandemic slowed everything down, I finally had space to look around and reflect. I was approaching another performance review and realized I was working hard to progress in a career I could do but didn't care much about. I wanted to change that.
               </p>
               <p className="text-lg leading-relaxed">
