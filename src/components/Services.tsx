@@ -104,7 +104,7 @@ export default function Services() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Career coaching packages
+            Invest in your next chapter
           </h2>
           
           <p

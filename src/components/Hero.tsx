@@ -35,8 +35,8 @@ export default function Hero() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-Your career coach for
-              <br />what comes next.
+              You know it's time
+              <br />for a change.
               <span className="block mt-2">
                 <span className="bg-brand-pink text-white px-3 py-1 inline-block leading-[1.2]">
                   Let's figure out
@@ -54,7 +54,7 @@ Your career coach for
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-I help high-achieving professionals navigate career transitions, because I've made them myself. From consulting to tech to coaching in Austin, TX, I understand what it takes to move toward work that actually fits.
+              I help high-achieving professionals navigate career transitions, because I've made them myself. From consulting to tech to coaching, I understand what it takes to move toward work that actually fits.
             </p>
 
             {/* CTA Buttons */}
@@ -105,7 +105,7 @@ I help high-achieving professionals navigate career transitions, because I've ma
                 <div className="relative w-full h-full bg-surface-dark overflow-hidden">
                   <Image
                     src="/evon-headshot.webp"
-alt="Evon Davis, career and leadership coach in Austin Texas, standing in professional attire"
+                    alt="Evon Davis, career and leadership coach"
                     fill
                     className="object-cover"
                     priority
@@ -113,12 +113,12 @@ alt="Evon Davis, career and leadership coach in Austin Texas, standing in profes
                 </div>
               </div>
 
-              {/* Floating credential card */}
+              {/* Floating client quote card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-5 shadow-2xl max-w-xs border-l-4 border-brand-pink hidden md:block">
-                <p className="text-sm text-text-primary font-medium leading-relaxed">
-                  From strategy consulting to tech to coaching, I've navigated the career pivots I now help others through.
+                <p className="text-sm text-text-secondary italic leading-relaxed">
+                  "It was a real pleasure working with you and I am so glad you were my coach."
                 </p>
-                <p className="text-xs text-text-muted mt-2">Deloitte → Meta → Coaching</p>
+                <p className="text-xs text-text-muted mt-2">— Coaching Client</p>
               </div>
             </div>
           </div>

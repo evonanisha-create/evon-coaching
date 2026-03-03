@@ -27,7 +27,7 @@ export default function About() {
     <section
       ref={sectionRef}
       id="about"
-      aria-label="About Evon Davis, career transition coach in Austin Texas"
+      aria-label="About Evon Davis, career transition coach"
       className="section-padding bg-white relative overflow-hidden"
     >
       <div className="container-main">
@@ -64,19 +64,19 @@ export default function About() {
           >
             <div className="space-y-6 text-text-secondary">
               <p className="text-xl text-text-primary leading-relaxed">
-                I started my career at a big consulting house, trying many different things until I found my passion: strategy. That led me to a smaller firm specializing in strategy alignment and execution, which brought me to Austin, Texas.
+                When the pandemic slowed everything down, I finally had space to look around and reflect. I was approaching another performance review and realized I was working hard to progress in a career I could do but didn't care much about. I wanted to change that.
               </p>
               <p className="text-lg leading-relaxed">
-                After several years in consulting, I made the leap to tech. I worked in operations, then marketing and sales. Same strategy skills, completely different context.
+                I'd spent years in strategy consulting at Deloitte and BTS, then made the leap to tech at Meta. Same strategy skills, completely different contexts. But I kept coming back to the same question: what if I could take everything I'd learned and apply it in a way that actually aligned to my values?
               </p>
               <p className="text-lg leading-relaxed">
-                Then the pandemic hit. My world slowed down, and I finally had space to reflect. I'd done consulting. I'd done tech. But I wasn't quite satisfied. I didn't want to go back to consulting, and I didn't see myself staying in tech forever.
+                I anguished over that choice for not days or months, but years. Eventually I realized I needed to face the "what if." I didn't want regrets or resentments, so I knew giving coaching a real try was the way to go.
               </p>
               <p className="text-lg leading-relaxed">
-                That's when I realized what I wanted: to marry my consulting experience with more intimate client work. Instead of big engagements for whole companies, I wanted to work closely with individuals on their <em>personal strategy</em>.
+                When I finally left Meta to coach full-time, I was relieved and excited to try something completely different than anything I'd done before. I knew that at the very least it would be an interesting story, but more likely that I'd learn a lot in the process.
               </p>
               <p className="text-lg leading-relaxed">
-                I got certified in 2021, tested coaching alongside my job, and discovered I loved it. In 2022, I took the leap to coach full-time. Now I've worked with over 200 clients, from new grads to executives, Fortune 500 to nonprofits, helping them navigate their own career transitions.
+                Now I've worked with over 200 clients, from individual contributors to executives, across industries from tech to healthcare to financial services. The biggest difference in my day-to-day? The personal agency and flexibility. I no longer feel like I'm pouring from an empty cup.
               </p>
             </div>
 
@@ -86,7 +86,7 @@ export default function About() {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              "Coaching helps you uncover insights that are unique to you. It connects the analytical and creative sides of your brain to unlock potential and reach your goals."
+              "You are capable of figuring out what works for you."
             </blockquote>
           </div>
 
@@ -156,7 +156,7 @@ export default function About() {
                 Client Industries
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Tech', 'Consulting', 'Finance', 'Media', 'Healthcare', 'Nonprofit'].map((industry) => (
+                {['Technology', 'Healthcare', 'Financial Services', 'CPG', 'Retail', 'Pharma', 'Professional Services'].map((industry) => (
                   <span
                     key={industry}
                     className="px-3 py-1.5 bg-brand-black text-white text-xs"

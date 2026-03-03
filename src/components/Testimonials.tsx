@@ -2,28 +2,21 @@
 
 import { useEffect, useRef, useState } from 'react'
 
-// TODO: Replace with actual testimonials from Evon's Ezra clients
 const testimonials = [
   {
     id: 1,
-    quote: "Working with Evon helped me see my situation with fresh eyes. I was so stuck in my own head, and she asked the questions that helped me find clarity I couldn't find on my own.",
-    author: "Senior Manager",
-    company: "Technology Company",
-    outcome: "Successfully transitioned to a values-aligned role",
+    quote: "Thank you for all your time. It was truly very helpful as it gave me moments of reflection. I appreciate it more than words can express. I hope our paths cross soon.",
+    author: "Career Coaching Client",
   },
   {
     id: 2,
-    quote: "Evon's strategic background made all the difference. She understood the corporate world I was navigating and helped me approach my career change like a business problem, with a clear plan and actionable steps.",
-    author: "Former Consultant",
-    company: "Transitioned to Tech",
-    outcome: "Made a successful pivot from consulting",
+    quote: "Just wrapped my conversation with the VP. Your guidance was spot on and I'm feeling much more encouraged. I wanted to share this with you immediately.",
+    author: "Career Coaching Client",
   },
   {
     id: 3,
-    quote: "I was drowning in imposter syndrome after my promotion. Evon helped me build real confidence. Not fake positivity, but genuine belief in my ability to lead. My team has noticed the difference.",
-    author: "New People Manager",
-    company: "Financial Services",
-    outcome: "Built confidence in leadership role",
+    quote: "A lot of things have changed for me since we ended our coaching engagement, but your guidance and the GPS metaphor has really helped me stay grounded through all of it. Thanks to our work together, it's so much easier to keep my 'why' at the forefront of my decision-making. The road may be ever-evolving, but there's beauty and surprise to be found along the way.",
+    author: "Career Coaching Client",
   },
 ]
 
@@ -72,7 +65,7 @@ export default function Testimonials() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            What career coaching clients say
+            What clients say
           </h2>
           
           <p
@@ -118,19 +111,12 @@ export default function Testimonials() {
                   <p className="font-medium text-brand-black">
                     {testimonial.author}
                   </p>
-                  <p className="text-sm text-text-muted">
-                    {testimonial.company}
-                  </p>
-                  <p className="text-sm text-brand-pink mt-1">
-                    {testimonial.outcome}
-                  </p>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* TODO: Remove this spacer when real testimonials are added */}
       </div>
     </section>
   )

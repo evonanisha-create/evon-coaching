@@ -62,7 +62,7 @@ export default function Contact() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Book a free 30-minute discovery call. Whether you're in Austin or anywhere in the US, we'll talk about where you are, where you want to be, and whether coaching is the right next step.
+            Book a free 30-minute discovery call. We'll talk about where you are, where you want to be, and whether coaching is the right next step for you.
           </p>
 
           {/* CTA Button */}

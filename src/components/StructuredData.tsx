@@ -9,7 +9,7 @@ export default function StructuredData() {
     '@type': 'Person',
     name: 'Evon Davis',
     jobTitle: 'Career & Leadership Coach',
-    description: 'ICF ACC certified career and leadership coach in Austin, Texas. Former Deloitte and Meta strategist helping professionals navigate career transitions with clarity and confidence.',
+    description: 'ICF ACC certified career and leadership coach. Former Deloitte and Meta strategist helping professionals navigate career transitions with clarity and confidence.',
     url: SITE_URL,
     knowsAbout: [
       'Career Coaching',
@@ -49,8 +49,6 @@ export default function StructuredData() {
     ],
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Austin',
-      addressRegion: 'TX',
       addressCountry: 'US',
     },
   }
@@ -59,22 +57,16 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     name: 'Evon Davis Career & Leadership Coaching',
-    description: 'Career and leadership coaching for high-achieving professionals navigating career transitions. ICF certified, based in Austin TX, serving clients nationwide.',
+    description: 'Career and leadership coaching for high-achieving professionals navigating career transitions. ICF certified, serving clients nationwide.',
     url: SITE_URL,
     provider: {
       '@type': 'Person',
       name: 'Evon Davis',
     },
-    areaServed: [
-      {
-        '@type': 'City',
-        name: 'Austin',
-      },
-      {
-        '@type': 'Country',
-        name: 'United States',
-      },
-    ],
+    areaServed: {
+      '@type': 'Country',
+      name: 'United States',
+    },
     serviceType: ['Career Coaching', 'Leadership Coaching', 'Executive Coaching', 'Career Transition Coaching'],
     priceRange: '$250-$900',
     hasOfferCatalog: {
@@ -198,7 +190,7 @@ export default function StructuredData() {
     '@type': 'WebSite',
     name: 'Evon Davis Career & Leadership Coaching',
     url: SITE_URL,
-    description: 'Career and leadership coaching for professionals navigating career transitions. Based in Austin, Texas.',
+    description: 'Career and leadership coaching for professionals navigating career transitions.',
   }
 
   const breadcrumbSchema = {

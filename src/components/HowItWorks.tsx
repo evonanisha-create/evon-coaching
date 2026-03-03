@@ -89,7 +89,7 @@ export default function HowItWorks() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            How career coaching works
+            A clear path forward
           </h2>
           
           <p

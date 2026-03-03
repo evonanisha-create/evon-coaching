@@ -52,10 +52,9 @@ export default function Footer() {
           <p className="text-xs text-text-muted">
             ICF ACC Certified Coach • CPC, IPEC
           </p>
-          {/* SEO: Address element for local SEO signals */}
-          <address className="text-xs text-text-muted not-italic">
-            Career & Leadership Coaching • Austin, Texas • Serving clients nationwide
-          </address>
+          <p className="text-xs text-text-muted">
+            Career & Leadership Coaching • Serving clients nationwide
+          </p>
         </div>
       </div>
     </footer>

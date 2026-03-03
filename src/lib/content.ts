@@ -41,15 +41,14 @@ export const aboutContent = {
   sectionLabel: "My Story",
   headline: "I've navigated the transitions I now help others through",
   
-  // Update these paragraphs with your real story from the interview
   story: [
-    "I spent years building a career that looked impressive on paper—strategy consulting at Deloitte, leading digital transformation programs at Meta, working with Fortune 500 clients on their biggest challenges.",
-    "But somewhere along the way, I found myself asking: Is this it? Is this what I actually want?",
-    "That question led me through my own career transitions—from consulting to tech, from individual contributor to leader, and eventually to coaching. Each pivot taught me something crucial about what it takes to make a change that actually sticks.",
-    "Now I help other high-achievers do the same. Not with generic career advice, but with the strategic thinking and deep self-awareness that comes from having walked this path myself.",
+    "When the pandemic slowed everything down, I finally had space to look around and reflect. I was approaching another performance review and realized I was working hard to progress in a career I could do but didn't care much about. I wanted to change that.",
+    "I'd spent years in strategy consulting at Deloitte and BTS, then made the leap to tech at Meta. Same strategy skills, completely different contexts. But I kept coming back to the same question: what if I could take everything I'd learned and apply it in a way that actually aligned to my values?",
+    "I anguished over that choice for not days or months, but years. Eventually I realized I needed to face the 'what if.' I didn't want regrets or resentments, so I knew giving coaching a real try was the way to go.",
+    "When I finally left Meta to coach full-time, I was relieved and excited to try something completely different than anything I'd done before. Now I've worked with over 200 clients, from individual contributors to executives, across industries from tech to healthcare to financial services.",
   ],
-  
-  philosophyQuote: "Coaching helps you uncover insights that are unique to you—connecting the analytical and creative sides of your brain to unlock potential and reach your goals.",
+
+  philosophyQuote: "You are capable of figuring out what works for you.",
   
   credentials: [
     { label: "ICF ACC Certified", description: "International Coaching Federation" },
@@ -63,7 +62,7 @@ export const aboutContent = {
     { company: "University of Maryland", role: "B.S. Accounting & Finance", color: "black" },
   ],
   
-  industries: ["Consulting", "Technology", "Financial Services", "Media & Entertainment", "Marketing"],
+  industries: ["Technology", "Healthcare", "Financial Services", "CPG", "Retail", "Pharma", "Professional Services"],
 }
 
 export const servicesContent = {
@@ -116,25 +115,18 @@ export const testimonialsContent = {
   headline: "What clients say",
   subheadline: "Real transformations from professionals who were ready to make a change.",
   
-  // Replace these with real testimonials from Ezra clients
   testimonials: [
     {
-      quote: "Working with Evon helped me see my situation with fresh eyes. I was so stuck in my own head, and she asked the questions that helped me find clarity I couldn't find on my own.",
-      author: "Senior Manager",
-      company: "Technology Company",
-      outcome: "Successfully transitioned to a values-aligned role",
+      quote: "Thank you for all your time. It was truly very helpful as it gave me moments of reflection. I appreciate it more than words can express. I hope our paths cross soon.",
+      author: "Career Coaching Client",
     },
     {
-      quote: "Evon's strategic background made all the difference. She understood the corporate world I was navigating and helped me approach my career change like a business problem—with a clear plan and actionable steps.",
-      author: "Former Consultant",
-      company: "Transitioned to Tech",
-      outcome: "Made a successful pivot from consulting",
+      quote: "Just wrapped my conversation with the VP. Your guidance was spot on and I'm feeling much more encouraged. I wanted to share this with you immediately.",
+      author: "Career Coaching Client",
     },
     {
-      quote: "I was drowning in imposter syndrome after my promotion. Evon helped me build real confidence—not fake positivity, but genuine belief in my ability to lead. My team has noticed the difference.",
-      author: "New People Manager",
-      company: "Financial Services",
-      outcome: "Built confidence in leadership role",
+      quote: "A lot of things have changed for me since we ended our coaching engagement, but your guidance and the GPS metaphor has really helped me stay grounded through all of it. Thanks to our work together, it's so much easier to keep my 'why' at the forefront of my decision-making. The road may be ever-evolving, but there's beauty and surprise to be found along the way.",
+      author: "Career Coaching Client",
     },
   ],
 }
