@@ -45,7 +45,7 @@ export default function About() {
           </div>
 
           <h2
-            className={`font-display text-display-md md:text-display-lg text-brand-black leading-tight transition-all duration-700 delay-100 ${
+            className={`font-display text-display-md md:text-display-lg text-brand-black transition-all duration-700 delay-100 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >

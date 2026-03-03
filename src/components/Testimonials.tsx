@@ -73,7 +73,7 @@ export default function Testimonials() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Real transformations from professionals who were ready to make a change.
+            Real feedback from professionals who were ready to make a change.
           </p>
         </div>
 
@@ -94,6 +94,7 @@ export default function Testimonials() {
                     className="w-8 h-8 text-brand-pink/30"
                     viewBox="0 0 32 32"
                     fill="currentColor"
+                    aria-hidden="true"
                   >
                     <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-1.1.9-2 2-2V8zm14 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-1.1.9-2 2-2V8z" />
                   </svg>

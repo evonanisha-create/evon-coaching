@@ -113,6 +113,7 @@ export default function FAQ() {
                   className={`text-brand-pink text-2xl flex-shrink-0 transition-transform duration-300 ${
                     openIndex === index ? 'rotate-45' : ''
                   }`}
+                  aria-hidden="true"
                 >
                   +
                 </span>

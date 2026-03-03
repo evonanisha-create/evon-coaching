@@ -29,7 +29,7 @@ export default function HowItWorks() {
       title: 'Get Clarity',
       description: "Take the free Career Clarity Assessment to understand your unique situation and what's really holding you back.",
       icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <circle cx="16" cy="16" r="12" stroke="currentColor" strokeWidth="2" />
           <path d="M16 10v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
         </svg>
@@ -40,7 +40,7 @@ export default function HowItWorks() {
       title: 'Discovery Call',
       description: "A free 30-minute conversation to explore your goals, discuss your results, and see if we're a good fit to work together.",
       icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <path d="M8 12h16M8 16h12M8 20h8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           <rect x="4" y="6" width="24" height="20" rx="2" stroke="currentColor" strokeWidth="2" />
         </svg>
@@ -51,7 +51,7 @@ export default function HowItWorks() {
       title: 'Coaching Partnership',
       description: 'Structured 1:1 sessions designed to help you build confidence, gain clarity, and take meaningful action toward your goals.',
       icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <path d="M6 26l6-6m0 0l4-12 4 12m-8 0h8m2 6l6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
@@ -61,7 +61,7 @@ export default function HowItWorks() {
       title: 'Take Action',
       description: "Move forward with clarity and confidence. Whether that looks like a career change, new role, healthier boundaries, or leadership growth.",
       icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <path d="M6 16h20m0 0l-6-6m6 6l-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),

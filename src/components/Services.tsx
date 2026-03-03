@@ -171,11 +171,10 @@ export default function Services() {
                       }`}
                     >
                       <svg
-                        className={`w-5 h-5 flex-shrink-0 ${
-                          service.featured ? 'text-brand-pink' : 'text-brand-pink'
-                        }`}
+                        className="w-5 h-5 flex-shrink-0 text-brand-pink"
                         viewBox="0 0 20 20"
                         fill="currentColor"
+                        aria-hidden="true"
                       >
                         <path
                           fillRule="evenodd"

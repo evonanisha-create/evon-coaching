@@ -361,6 +361,7 @@ export default function Assessment() {
                           handleAnswer(currentQuestion.id, num)
                           setTimeout(handleNext, 300)
                         }}
+                        aria-label={`${num} out of 10 — ${num <= 3 ? currentQuestion.scaleLabels?.low : num >= 8 ? currentQuestion.scaleLabels?.high : 'moderate'}`}
                         className={`flex-1 py-3 border-2 font-medium transition-all duration-200 hover:border-brand-pink ${
                           answers[currentQuestion.id] === num
                             ? 'border-brand-pink bg-brand-pink text-white'
@@ -434,7 +435,7 @@ export default function Assessment() {
               <span className="inline-block px-4 py-1 bg-brand-pink text-white text-sm font-medium mb-4">
                 Your Career Archetype
               </span>
-              <h2 className="font-display text-display-md text-brand-black mb-2">
+              <h2 className="font-display text-display-md md:text-display-lg text-brand-black mb-2">
                 {archetype.name}
               </h2>
               <p className="text-xl text-text-secondary italic">

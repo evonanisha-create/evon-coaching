@@ -29,12 +29,15 @@ export const siteConfig = {
 
 export const heroContent = {
   eyebrow: "Career & Leadership Coach",
-  headline: "Ready for your next chapter?",
-  subheadline: "I help high-achieving professionals navigate career transitions with clarity and confidence—because I've been there myself.",
-  primaryCTA: "Take the Free Assessment",
-  secondaryCTA: "Learn More",
-  credibilityLine: "Former strategist at",
-  companies: ["Deloitte", "Meta"],
+  headline: "You know it's time for a change. Let's figure out what's next.",
+  subheadline: "I help high-achieving professionals navigate career transitions, because I've made them myself. From consulting to tech to coaching, I understand what it takes to move toward work that actually fits.",
+  primaryCTA: "Take the Career Clarity Assessment",
+  secondaryCTA: "How I Work",
+  credentials: "ICF ACC Certified Coach • 200+ Clients Coached • Former Deloitte & Meta",
+  floatingQuote: {
+    quote: "It was a real pleasure working with you and I am so glad you were my coach.",
+    author: "Coaching Client",
+  },
 }
 
 export const aboutContent = {
@@ -51,15 +54,15 @@ export const aboutContent = {
   philosophyQuote: "You are capable of figuring out what works for you.",
   
   credentials: [
-    { label: "ICF ACC Certified", description: "International Coaching Federation" },
+    { label: "ICF ACC", description: "International Coaching Federation" },
     { label: "CPC, IPEC", description: "Certified Professional Coach" },
-    { label: "10+ Years", description: "Strategy & Leadership Experience" },
+    { label: "200+ Clients", description: "Across Industries & Levels" },
   ],
-  
-  background: [
-    { company: "Meta", role: "Digital Transformation Program Manager", color: "pink" },
-    { company: "Deloitte & BTS", role: "Strategy Consultant", color: "blue" },
-    { company: "University of Maryland", role: "B.S. Accounting & Finance", color: "black" },
+
+  careerPath: [
+    { company: "Coaching", role: "Career & Leadership Coach", period: "2022–Present" },
+    { company: "Meta", role: "Strategy & Operations", period: "2018–2022" },
+    { company: "BTS & Deloitte", role: "Strategy Consultant", period: "2012–2018" },
   ],
   
   industries: ["Technology", "Healthcare", "Financial Services", "CPG", "Retail", "Pharma", "Professional Services"],
@@ -113,7 +116,7 @@ export const servicesContent = {
 export const testimonialsContent = {
   sectionLabel: "Client Stories",
   headline: "What clients say",
-  subheadline: "Real transformations from professionals who were ready to make a change.",
+  subheadline: "Real feedback from professionals who were ready to make a change.",
   
   testimonials: [
     {
