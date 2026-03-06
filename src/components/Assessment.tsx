@@ -23,11 +23,11 @@ const questions: Question[] = [
     question: "How would you describe where you are in your career right now?",
     type: 'single',
     options: [
-      { value: 'stuck', label: "Stuck — I know something needs to change but I don't know what" },
-      { value: 'crossroads', label: "At a crossroads — I have options but I'm paralyzed by the decision" },
-      { value: 'new_role', label: "New role — I want to build confidence and make an impact quickly" },
-      { value: 'burned_out', label: "Burned out — I'm successful on paper but exhausted and unfulfilled" },
-      { value: 'returning', label: "Returning — I'm coming back after a break and rebuilding momentum" },
+      { value: 'stuck', label: "Stuck: I know something needs to change but I don't know what" },
+      { value: 'crossroads', label: "At a crossroads: I have options but I'm paralyzed by the decision" },
+      { value: 'new_role', label: "New role: I want to build confidence and make an impact quickly" },
+      { value: 'burned_out', label: "Burned out: I'm successful on paper but exhausted and unfulfilled" },
+      { value: 'returning', label: "Returning: I'm coming back after a break and rebuilding momentum" },
     ],
   },
   {
@@ -53,10 +53,10 @@ const questions: Question[] = [
     question: "How ready are you to make a change?",
     type: 'single',
     options: [
-      { value: 'exploring', label: "Just exploring — I'm curious but not ready to act" },
-      { value: 'considering', label: "Actively considering — I want to make a change in the next 6 months" },
-      { value: 'ready', label: "Ready now — I need support to take the next step" },
-      { value: 'in_progress', label: "Already in motion — I've started but need guidance" },
+      { value: 'exploring', label: "Just exploring: I'm curious but not ready to act" },
+      { value: 'considering', label: "Actively considering: I want to make a change in the next 6 months" },
+      { value: 'ready', label: "Ready now: I need support to take the next step" },
+      { value: 'in_progress', label: "Already in motion: I've started but need guidance" },
     ],
   },
   {
@@ -361,7 +361,7 @@ export default function Assessment() {
                           handleAnswer(currentQuestion.id, num)
                           setTimeout(handleNext, 300)
                         }}
-                        aria-label={`${num} out of 10 — ${num <= 3 ? currentQuestion.scaleLabels?.low : num >= 8 ? currentQuestion.scaleLabels?.high : 'moderate'}`}
+                        aria-label={`${num} out of 10, ${num <= 3 ? currentQuestion.scaleLabels?.low : num >= 8 ? currentQuestion.scaleLabels?.high : 'moderate'}`}
                         className={`flex-1 py-3 border-2 font-medium transition-all duration-200 hover:border-brand-pink ${
                           answers[currentQuestion.id] === num
                             ? 'border-brand-pink bg-brand-pink text-white'

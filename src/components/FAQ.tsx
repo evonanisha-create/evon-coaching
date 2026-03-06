@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     question: 'Is career coaching worth it?',
-    answer: "Career coaching is worth it if you are feeling stuck, considering a career change, navigating a new leadership role, or returning to work after a break. With over 200 clients coached, the most common feedback is that coaching helped people make confident decisions they had been putting off for months or years.",
+    answer: "Career coaching is worth it if you are feeling stuck, considering a career change, stepping into a new leadership role, or returning to work after a break. With over 200 clients coached, the most common feedback is that coaching helped people make confident decisions they had been putting off for months or years.",
   },
   {
     question: 'Who is career coaching for?',
-    answer: "Career coaching with Evon is designed for high-achieving professionals navigating transitions. This includes people changing careers or industries, new managers building leadership skills, professionals returning to work after a break, those feeling burned out or misaligned, and anyone who is successful on paper but wants something different.",
+    answer: "Career coaching with Evon is designed for professionals going through career transitions. This includes people changing careers or industries, new managers building leadership skills, professionals returning to work after a break, those feeling burned out or misaligned, and anyone who is successful on paper but wants something different.",
   },
 ]
 

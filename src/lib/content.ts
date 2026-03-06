@@ -109,7 +109,7 @@ export const servicesContent = {
     { title: "Career Transitions", description: "Changing jobs, industries, or career paths entirely" },
     { title: "New Managers", description: "Building confidence and skills in your first leadership role" },
     { title: "Return to Work", description: "Rebuilding confidence after maternity leave or a career break" },
-    { title: "Feeling Stuck", description: "Successful on paper but unfulfilled—ready for something different" },
+    { title: "Feeling Stuck", description: "Successful on paper but unfulfilled, ready for something different" },
   ],
 }
 

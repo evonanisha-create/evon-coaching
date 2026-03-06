@@ -9,7 +9,7 @@ export default function StructuredData() {
     '@type': 'Person',
     name: 'Evon Davis',
     jobTitle: 'Career & Leadership Coach',
-    description: 'ICF ACC certified career and leadership coach. Former Deloitte and Meta strategist helping professionals navigate career transitions with clarity and confidence.',
+    description: 'ICF ACC certified career and leadership coach. Former Deloitte and Meta strategist helping professionals move through career transitions with clarity and confidence.',
     url: SITE_URL,
     knowsAbout: [
       'Career Coaching',
@@ -57,7 +57,7 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     name: 'Evon Davis Career & Leadership Coaching',
-    description: 'Career and leadership coaching for high-achieving professionals navigating career transitions. ICF certified, serving clients nationwide.',
+    description: 'Career and leadership coaching for professionals going through career transitions. ICF certified, serving clients nationwide.',
     url: SITE_URL,
     provider: {
       '@type': 'Person',
@@ -101,7 +101,7 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
     name: 'How Career Coaching Works with Evon Davis',
-    description: 'A structured four-step process to help you navigate your career transition with clarity and confidence.',
+    description: 'A structured four-step process to help you move through your career transition with clarity and confidence.',
     step: [
       {
         '@type': 'HowToStep',
@@ -171,7 +171,7 @@ export default function StructuredData() {
         name: 'Is career coaching worth it?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Career coaching is worth it if you are feeling stuck, considering a career change, navigating a new leadership role, or returning to work after a break. The value comes from having a strategic thinking partner who can help you gain clarity faster than you would on your own. With over 200 clients coached, the most common feedback is that coaching helped them make confident decisions they had been putting off for months or years.',
+          text: 'Career coaching is worth it if you are feeling stuck, considering a career change, stepping into a new leadership role, or returning to work after a break. The value comes from having a thinking partner who can help you gain clarity faster than you would on your own. With over 200 clients coached, the most common feedback is that coaching helped them make confident decisions they had been putting off for months or years.',
         },
       },
       {
@@ -179,7 +179,7 @@ export default function StructuredData() {
         name: 'Who is career coaching for?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Career coaching with Evon Davis is designed for high-achieving professionals navigating transitions. This includes people changing careers or industries, new managers building leadership skills, professionals returning to work after a break, those feeling burned out or misaligned with their current role, and anyone who is successful on paper but wants something different.',
+          text: 'Career coaching with Evon Davis is designed for professionals going through career transitions. This includes people changing careers or industries, new managers building leadership skills, professionals returning to work after a break, those feeling burned out or misaligned with their current role, and anyone who is successful on paper but wants something different.',
         },
       },
     ],
@@ -190,7 +190,7 @@ export default function StructuredData() {
     '@type': 'WebSite',
     name: 'Evon Davis Career & Leadership Coaching',
     url: SITE_URL,
-    description: 'Career and leadership coaching for professionals navigating career transitions.',
+    description: 'Career and leadership coaching for professionals working through career transitions.',
   }
 
   const breadcrumbSchema = {

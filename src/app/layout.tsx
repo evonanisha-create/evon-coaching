@@ -20,7 +20,7 @@ const SITE_URL = 'https://evon-coaching.vercel.app'
 
 export const metadata: Metadata = {
   title: 'Evon Davis | Career & Leadership Coach',
-  description: 'Navigate your career transition with confidence. ICF-certified coach and former Deloitte & Meta strategist helping high-achievers find clarity and take values-aligned next steps.',
+  description: 'Make your next career move with confidence. ICF-certified coach and former Deloitte & Meta strategist helping professionals find clarity and take values-aligned next steps.',
   keywords: [
     'career coach',
     'leadership coach',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Evon Davis | Career & Leadership Coach',
-    description: 'ICF-certified career coach helping high-achievers navigate career transitions. Former Deloitte & Meta strategist. Free discovery call available.',
+    description: 'ICF-certified career coach helping professionals move through career transitions. Former Deloitte & Meta strategist. Free discovery call available.',
     type: 'website',
     locale: 'en_US',
     url: SITE_URL,
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Evon Davis | Career & Leadership Coach',
-    description: 'ICF-certified career coach helping professionals navigate career transitions with clarity and confidence.',
+    description: 'ICF-certified career coach helping professionals work through career transitions with clarity and confidence.',
   },
 }
 
